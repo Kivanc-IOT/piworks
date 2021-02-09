@@ -12,7 +12,7 @@ different users that are “admin” and “super admin”.
 # Description
 
 ## Product Functions
-![](/Users/kivancersoy/Desktop/funcs1.png)
+![](https://raw.githubusercontent.com/Kivanc-IOT/piworks/main/funcs.png)
 
 * Users will be able to do sort and hide disabled users operations.
 * Admin can add new user that has a role "Guest" or "Admin".
@@ -30,7 +30,7 @@ The correctness of the inputs such as username, e-mail etc. is the responsibilit
 
 There are 4 different packages in this project. This approach was made so that different classes with different tasks did not interfere. In the application package, there is only one class that initiates the application.
 In the pages package, there are ListUsersPage and AddUserPage classes. In the operation package, there is one class where user operations are performed. In the dataAccess package, there is User class. All of the methods’ getters and setters are not shown in the UML Class Diagram.
-![](/Users/kivancersoy/Desktop/uml2.png)
+![](https://raw.githubusercontent.com/Kivanc-IOT/piworks/main/uml.png)
 
 ### Interface Viewpoint
 This viewpoint’s corresponding design view is to explain each methods used in UML, so that it provides interface to ones that want to use those methods. Also reveals how our system will work.
@@ -67,8 +67,8 @@ This shows relationships between application and classes. It helps the developer
 #### Sequence Diagram
 
 ##### Add User Interaction
-![](/Users/kivancersoy/Desktop/add.png)
+![](https://raw.githubusercontent.com/Kivanc-IOT/piworks/main/add.png)
 ##### Sort Interaction
-![](/Users/kivancersoy/Desktop/sort.png)
+![](https://raw.githubusercontent.com/Kivanc-IOT/piworks/main/sort.png)
 ##### Hide Disabled User Interaction
-![](/Users/kivancersoy/Desktop/hide.png)
+![](https://raw.githubusercontent.com/Kivanc-IOT/piworks/main/hide.png)
